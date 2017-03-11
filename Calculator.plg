@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Calculator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\temp\RSP4DC5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Calculator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\file\file\knowledge_file\项目文件\visual  c++\Calculator\Calculator.cpp"
+"E:\file\file\knowledge_file\项目文件\visual  c++\Calculator\CalculatorDlg.cpp"
+]
+Creating command line "cl.exe @c:\temp\RSP4DC5.tmp" 
+Creating temporary file "c:\temp\RSP4DC6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Calculator.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\file\file\knowledge_file\项目文件\visual  c++\Calculator\StdAfx.cpp"
+]
+Creating command line "cl.exe @c:\temp\RSP4DC6.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Calculator.pdb" /debug /machine:I386 /out:"Debug/Calculator.exe" /pdbtype:sept  ".\Debug\Calculator.obj" ".\Debug\CalculatorDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\Calculator.res" "
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Calculator.cpp
+CalculatorDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Calculator.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
